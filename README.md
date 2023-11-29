@@ -19,3 +19,10 @@ Chapter 3-1 Unity 게임개발 입문 개인과제
 1. 캐릭터 애니메이션 추가
 2. 현재 시간 표시
 
+
+#### 작동 예시
+![2023-11-29 11-11-32 (1)](https://github.com/ssungyeee/Chapter3PersonalAssignment/assets/149459020/cf6724cb-948b-4ef0-8de5-8af0c8ca513a)  
+캐릭터의 애니메이션, 이동, 마우스 포인터에 따라 방향 전환, 현재 시간
+
+![2023-11-29 11-16-55 (1)](https://github.com/ssungyeee/Chapter3PersonalAssignment/assets/149459020/9473fcff-40de-4fc9-a7d4-25427075be75)  
+타일맵을 활용한 맵 제작, 캐릭터와 맵의 벽 간의 충돌 구현
