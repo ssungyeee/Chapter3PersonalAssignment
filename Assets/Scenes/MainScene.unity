@@ -5608,8 +5608,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 481679368}
-  - component: {fileID: 481679369}
   - component: {fileID: 481679370}
+  - component: {fileID: 481679369}
   m_Layer: 0
   m_Name: weapon1
   m_TagString: Untagged
@@ -5787,8 +5787,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 509263738}
-  - component: {fileID: 509263740}
   - component: {fileID: 509263739}
+  - component: {fileID: 509263740}
   m_Layer: 0
   m_Name: weapon6
   m_TagString: Untagged
@@ -6286,8 +6286,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 602164380}
-  - component: {fileID: 602164382}
   - component: {fileID: 602164381}
+  - component: {fileID: 602164382}
   m_Layer: 0
   m_Name: weapon5
   m_TagString: Untagged
@@ -6886,8 +6886,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 766774480}
-  - component: {fileID: 766774482}
   - component: {fileID: 766774481}
+  - component: {fileID: 766774482}
   m_Layer: 0
   m_Name: weapon4
   m_TagString: Untagged
@@ -15786,8 +15786,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1774300360}
-  - component: {fileID: 1774300362}
   - component: {fileID: 1774300361}
+  - component: {fileID: 1774300362}
   m_Layer: 0
   m_Name: weapon3
   m_TagString: Untagged

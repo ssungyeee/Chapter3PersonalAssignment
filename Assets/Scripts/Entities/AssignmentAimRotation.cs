@@ -6,7 +6,7 @@ using static UnityEditor.Progress;
 
 public class AssignmentAimRotation : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer armRenderer;
+    [SerializeField] private SpriteRenderer armRenderer;    
     [SerializeField] private Transform armPivot;
 
     [SerializeField] private SpriteRenderer characterRenderer;

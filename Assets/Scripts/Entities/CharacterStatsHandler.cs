@@ -13,8 +13,7 @@ public class CharacterStatsHandler : MonoBehaviour
 
     private void Awake()
     {        
-        UpdateCharacterStats();
-        
+        UpdateCharacterStats();        
     }
     
     public void UpdateCharacterStats()
