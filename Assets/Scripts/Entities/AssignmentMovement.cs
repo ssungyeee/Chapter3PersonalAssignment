@@ -6,14 +6,18 @@ using UnityEngine;
 public class AssignmentMovement : MonoBehaviour
 {
     private AssignmentCharacterController _controller;
+    private CharacterStatsHandler _stats;
 
     private Vector2 _movementDirection = Vector2.zero;
     private Rigidbody2D _rigidbody;
+
+    
 
     private void Awake()
     {
         _controller = GetComponent<AssignmentCharacterController>();
         _rigidbody = GetComponent<Rigidbody2D>();
+        _stats = GetComponent<CharacterStatsHandler>();
     }
 
     // Start is called before the first frame update
@@ -34,13 +38,7 @@ public class AssignmentMovement : MonoBehaviour
 
     private void ApplyMovement(Vector2 direction)
     {
-        direction = direction * 5;
+        direction = direction * _stats.CurrentStats.speed;
         _rigidbody.velocity = direction;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    }    
 }

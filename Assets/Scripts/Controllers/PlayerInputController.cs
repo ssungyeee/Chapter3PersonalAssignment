@@ -13,7 +13,7 @@ public class PlayerInputController : AssignmentCharacterController
 
     public void OnMove(InputValue value)
     {
-        Vector2 moveInput = value.Get<Vector2>().normalized;
+        Vector2 moveInput = value.Get<Vector2>().normalized;        
         CallMoveEvent(moveInput);
     }
 

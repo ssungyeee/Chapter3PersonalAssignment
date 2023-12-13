@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class AssignmentAimRotation : MonoBehaviour
 {
@@ -14,9 +15,9 @@ public class AssignmentAimRotation : MonoBehaviour
 
     private void Awake()
     {
-        _controller = GetComponent<AssignmentCharacterController>();
+        _controller = GetComponent<AssignmentCharacterController>();        
     }
-    // Start is called before the first frame update
+
     void Start()
     {
         _controller.OnLookEvent += OnaAim;
@@ -28,18 +29,12 @@ public class AssignmentAimRotation : MonoBehaviour
     }
 
     private void RotateArm(Vector2 direction)
-    {
+    {        
         float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         armRenderer.flipY = Mathf.Abs(rotZ) > 90f;
         characterRenderer.flipX = armRenderer.flipY;
 
         armPivot.rotation = Quaternion.Euler(0, 0, rotZ);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
