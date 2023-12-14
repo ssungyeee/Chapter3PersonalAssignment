@@ -76,6 +76,10 @@ Status 버튼, Inventory 버튼 - 사라지기
 ![11](https://github.com/ssungyeee/Chapter3PersonalAssignment/assets/149459020/4a504147-d751-4d73-9ccc-005409afd447)
 Sprite Renderer를 weapon1번 오브젝트와 연결시켜서 구현을 했다 보니 다른 아이템 착용을 고려하지 못한 설계 실수가 있었다. . . 컴포넌트, 배열 등 다양한 방법을 시도해 보았지만 실패했다. . .
 
+#### 231214 오류 수정  
+아이템의 플립 문제를 수정하였습니다.  
+https://velog.io/@leedlrbtjd/37.-Unity-%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C-%EC%88%99%EB%A0%A8-1%EC%A3%BC%EC%B0%A85
+
 
 
 
