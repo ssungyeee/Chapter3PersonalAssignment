@@ -29,7 +29,9 @@ public class AssignmentAimRotation : MonoBehaviour
     }
 
     private void RotateArm(Vector2 direction)
-    {        
+    {
+        armRenderer = GameObject.FindWithTag("Item").GetComponent<SpriteRenderer>();
+
         float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         armRenderer.flipY = Mathf.Abs(rotZ) > 90f;
